@@ -16,9 +16,9 @@ int main(){
     std::vector<int> numbers = {7, 24, 33, 81, 97};
     int k = 3;
     if (search(numbers, k)){
-        std::cout << "В таблице есть кратное число" << std::endl;
+        std::cout << "yes" << std::endl;
     } else {
-        std::cout << "В таблице нет кратных чисел" << std::endl;
+        std::cout << "no" << std::endl;
     }
     return 0;
 }
